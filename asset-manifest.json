@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/beauty/static/css/main.858cab2a.css",
+    "main.js": "/beauty/static/js/main.ab208a5b.js",
+    "index.html": "/beauty/index.html",
+    "main.858cab2a.css.map": "/beauty/static/css/main.858cab2a.css.map",
+    "main.ab208a5b.js.map": "/beauty/static/js/main.ab208a5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.858cab2a.css",
+    "static/js/main.ab208a5b.js"
+  ]
+}
