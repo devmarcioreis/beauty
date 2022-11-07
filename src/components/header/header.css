@@ -3,8 +3,10 @@
     padding: 1.5rem;
 }
 .logo {
+    flex: 1;
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 .logo img {
     width: 2.5rem;
@@ -12,7 +14,6 @@
 }
 .logo span {
     font-weight: 700;
-    margin-right: 2rem;
 }
 .right {
     display: flex;
@@ -28,4 +29,14 @@
 }
 .menu li:hover {
     color: #FE956F;
+}
+.search {
+    width: 7rem;
+    border-radius: .4rem;
+    padding: .5rem;
+    height: 30%;
+}
+.cart {
+    cursor: pointer;
+    width: 1.5rem;
 }

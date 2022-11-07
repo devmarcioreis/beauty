@@ -19,7 +19,7 @@ const Header = () => {
             <li>Mais vendidos</li>
           </ul>
         </div>
-        <input type="text" className='search' />
+        <input type="text" className='search' placeholder='buscar...' />
         <BsBag className='cart' />
       </div>
     </div>
