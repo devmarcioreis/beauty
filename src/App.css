@@ -1,9 +1,9 @@
 :root{
-  --black-color: #343434;
-  --background-color: #FFE1E1;
+  --black-color: rgb(52, 52, 52);
+  --background-color: rgb(255, 225, 225);
   --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
   --shadow2:  0px 13px 46px rgba(0, 0, 0, 0.13);
-  --pink-color: #FE956F;
+  --pink-color: rgb(254, 149, 111);
 }
 .App{
   display: flex;
@@ -20,7 +20,7 @@
   }
   
   ::-webkit-scrollbar-thumb{
-  background: skyblue;
+  background: rgb(135, 206, 235);
   border-radius: 1ex;
   }
 
