@@ -1,26 +1,26 @@
 import React from 'react'
-import css from './Header.module.css'
+import './header.css'
 import Logo from '../../assets/logo.png'
 import { BsBag } from 'react-icons/bs'
 
 const Header = () => {
   return (
-    <div className={css.container}>
-      <div className={css.logo}>
+    <div className='container'>
+      <div className='logo'>
         <img src={Logo} alt="Logo" />
         <span>Beauty</span>
       </div>
-      <div className={css.right}>
-        <div className={css.menu}>
-          <ul className={css.menu}>
+      <div className='right'>
+        <div className='menu'>
+          <ul className='menu'>
             <li>Coleções</li>
             <li>Marcas</li>
             <li>Lançamentos</li>
             <li>Mais vendidos</li>
           </ul>
         </div>
-        <input type="text" className={css.search} />
-        <BsBag className={css.cart} />
+        <input type="text" className='search' />
+        <BsBag className='cart' />
       </div>
     </div>
   )
